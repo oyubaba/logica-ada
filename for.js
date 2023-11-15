@@ -159,10 +159,10 @@ console.log(`soma dos ${qntDados2} dados com ${qntLados} lados: ${somaDosValores
 const qntDados3 = 3
 const qntLados2 = 9
 const numeroTentativas = 3
-let  somaDosValores3 = 0
 
 for(let i = 0; i < numeroTentativas; i++) {
     console.log(`tentativa ${i + 1}: `)
+    let  somaDosValores3 = 0
     for (let i = 0; i < qntDados3; i++) {
         const rolagem = Math.floor(Math.random() * qntLados2) + 1
         console.log(`dado ${i + 1}: ${rolagem}`)
